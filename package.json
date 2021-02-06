@@ -1,0 +1,24 @@
+{
+  "name": "toDoList",
+  "version": "1.0.0",
+  "description": "### This is a simple to-do-list app created with Vanilla Javascript, HTML and CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eli-micho/toDoList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eli-micho/toDoList/issues"
+  },
+  "homepage": "https://github.com/eli-micho/toDoList#readme",
+  "devDependencies": {
+    "webpack": "^5.21.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
