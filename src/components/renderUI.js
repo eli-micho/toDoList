@@ -8,18 +8,12 @@ const renderSideBar = () => {
     logoWrap.innerHTML = '<h1>the.List</h1>';
     logoWrap.classList.add('logoWrap');
 
-    projectTabWrap.innerHTML = `
-        <h3>Projects</h3>
-        <button class="newProjBtn">New Project</button>
-        <ul id="projectList">
-            <li>Default Project</li>
-        </ul>
-    `;
     projectTabWrap.classList.add('projectTabWrap');
     
     sidebar.classList.add('sidebar');
     sidebar.appendChild(logoWrap);
     sidebar.appendChild(projectTabWrap);
+    
     return sidebar
 };
 

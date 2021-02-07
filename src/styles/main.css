@@ -80,10 +80,26 @@ body, html {
     flex-basis: 100%;
 }
 
-.addBtn {
+.btn {
     text-align: center;
     padding: 12px;
     cursor: pointer;
     border: 1px solid;
     font-size: 18px;
+    display: block;
+}
+
+#newProjectForm {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+}
+
+#newProjectForm input[type=text]{
+    width: 70%;
+    flex-basis: 100%;
+}
+
+#newProjectForm span{
+    font-size: 15px;
 }
